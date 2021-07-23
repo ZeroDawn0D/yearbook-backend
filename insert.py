@@ -7,14 +7,12 @@ name = inputs[1][:-1];
 roll = inputs[2][:-1];
 quote = inputs[3][:-1];
 fav = inputs[4][:-1];
-colour = inputs[5][:-1];
 imgur = inputs[6];
 print("sec: "+ sec);
 print("name: "+ name);
 print("roll: "+ roll);
 print("quote: "+ quote);
 print("fav: "+ fav);
-print("colour: "+ colour);
 print("imgur: "+ imgur);
 
 doc = {
@@ -22,7 +20,6 @@ doc = {
 	"roll": roll,
 	"quote": quote,
 	"fav": fav,
-	"colour": colour,
 	"imgur": imgur
 }
 
